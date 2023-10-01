@@ -18,7 +18,7 @@ true || alert("not printed");
 false || alert("printed");
 //In the first line, the OR || operator stops the evaluation immediately upon seeing true, so the alert isn’t run.
 
-// if the first operand is truthy,
+// if the first operand is true,
 // AND returns the second operand:
 alert( 1 && 0 ); // 0
 alert( 1 && 5 ); // 5
